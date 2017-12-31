@@ -1,0 +1,25 @@
+---
+layout: base
+title: 博客首页
+navbar_active: home
+relative_path: ./
+---
+
+<div class="container bg-light mt-4 mb-4">
+
+  <div class="mt-4">
+      <ul class="list-inline">
+          <li class="list-inline-item"><h4 class="card-title">{{ page.title }}</h4></li>
+      </ul>
+  </div>
+  <div class="row">
+    <div class="list-group">
+      {% for post in site.posts %}
+          {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+          <a class="list-group-item list-group-item-action" href="{{ post.url | relative_url }}">{{ post.title | escape }} <span class="post-meta">{{ post.date | date: date_format }}</span></a>
+      {% endfor %}
+    </div>
+
+  </div>
+
+</div>

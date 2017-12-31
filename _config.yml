@@ -1,1 +1,53 @@
-theme: jekyll-theme-slate
+# Server
+baseurl: "/blog"
+url:     "http://thirtyjin.com"
+
+source: src
+destination: _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# ensures SCSS files are compiled
+include: [_*.scss]
+
+
+# plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jemoji
+  - jekyll-toc
+
+
+# social
+title: THIRTYJIN 设计进化论
+description: THIRTYJIN 设计进化论。
+
+lang: zh
+
+# Custom variables
+site_url:       http://thirtyjin.com
+blog_url:       http://thirtyjin.com
+
+author:
+  name:         Thirty Jin
+  email:        thirty.jin@qq.com
+  twitter_username:      thirtyjin
+  github_username:       thirtyjin
+github:
+  url:          https://github.com/thirtyjin/thirtyjin.github.io
+  project:      dux_axure_library
+  org:          thirtyjin
+license:
+  font:
+    version:      SIL OFL 1.1
+    url:          http://scripts.sil.org/OFL
+  code:
+    version:      MIT License
+    url:          http://opensource.org/licenses/mit-license.html
+  documentation:
+    version:      CC BY 3.0
+    url:          http://creativecommons.org/licenses/by/3.0/

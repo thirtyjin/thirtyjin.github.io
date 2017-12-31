@@ -1,0 +1,205 @@
+---
+---
+
+@import "theme-dux";
+
+html {
+	font-family: 'PingFang SC', 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, simhei, sans-serif;
+
+	-webkit-font-smoothing: antialiased; /*chrome、safari*/
+	-moz-osx-font-smoothing: grayscale;/*firefox*/
+}
+
+
+body {
+	background:#f2f4f8;
+}
+
+ul {
+	padding: 0
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-brand sup {
+    color: #999;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-inner .content-wrapper {
+	display: table;
+}
+.carousel-inner .content-cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px 20px 60px 20px;
+	height: 300px;
+}
+
+
+
+.tooltip-inner {
+    padding: 5px 10px;
+    border-radius: 1px;
+}
+
+
+#line_logo {
+	float: left;
+	height: 50px;
+	width: 120px;
+	margin-right: 10px;
+}
+
+.navbar-brand sup {
+    color: #999;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+
+#title {
+	font-size: 18px;
+	text-align: left;
+	line-height: 60px;
+	color: #fff;
+	font-weight: 100;
+}
+
+
+.card_area {
+	background: #ffffff;
+	margin-bottom: 30px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+}
+
+
+#hero_time {
+	background: #FFFFFF;
+	margin-top: 70px;
+}
+
+
+
+#hreo_show {
+  height: 300px;
+  max-height: 300px;
+  background-image: url(../img/dark_mask.svg), url(../img/duxcharts_hero.jpg);
+  background-size: cover,cover;
+  background-position: center bottom, center center;
+  background-repeat: repeat, repeat;
+  box-shadow: inset 0px 10px 100px #000000;
+  margin-bottom: 0;
+}
+
+
+.page-header{
+	padding-bottom:9px;
+	margin:20px 0 30px;
+	border-bottom:1px solid #eeeeee;}
+
+
+/* 位置要放在 page-header 下面 */
+.margintop_header {
+	margin-top: 60px;
+}
+
+.card {
+	margin-bottom: 20px;
+}
+
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-inner .content-wrapper {
+	display: table;
+}
+.carousel-inner .content-cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px 20px 60px 20px;
+	height: 300px;
+}
+
+
+.tooltip-inner {
+    padding: 5px 10px;
+    border-radius: 1px;
+}
+
+
+
+
+
+/* Charts */
+
+#bar_h_negative,
+#bar_v_base,
+#bar_v_mult,
+#bar_h_base,
+#bar_h_stack {
+	height: 360px;
+}
+
+
+#pie_ring_center,
+#pie_ring,
+#pie_base,
+#pie_rose,
+#pie_nest {
+	height: 360px;
+}
+
+#graph_interests_option,
+#graph_place_option,
+#line_area_datazoom,
+#line_multi_y,
+#line_gradient_area,
+#line_broken,
+#line_base_area,
+#line_base {
+	height: 360px;
+}
+
+#map_china_two,
+#map_china {
+	height: 360px;
+}
+
+
+#graph_force_one,
+#graph_force_two {
+	height: 360px;
+}
+
+
+
+/* 人群画像 DEMO */
+
+#app_option,
+#wealth_option,
+#stage_option{
+	height: 260px;
+}
+#gender_option,
+#age_option,
+#education_option{
+	height: 300px;
+}
+#region_option,
+#interests_option,
+#place_option {
+	height: 360px;
+}

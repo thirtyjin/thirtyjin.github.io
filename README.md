@@ -1,3 +1,1 @@
-# Hello 
-I'm thirtyjin
- test
+# THIRTYJIN BLOG
