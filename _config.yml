@@ -1,5 +1,5 @@
 # Server
-baseurl: "/blog"
+baseurl: "/blog2"
 url:     "http://thirtyjin.com"
 
 source: src

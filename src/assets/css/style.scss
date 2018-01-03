@@ -140,66 +140,27 @@ ul {
 }
 
 
+// NEW
 
+article {
+	width: 100%;
+	margin: 20px auto 40px;
+	padding: 20px 0;
+	border-bottom: 1px solid #dbdbdb;
+}
 
-
-/* Charts */
-
-#bar_h_negative,
-#bar_v_base,
-#bar_v_mult,
-#bar_h_base,
-#bar_h_stack {
-	height: 360px;
+article ul li {
+	list-style: none;
 }
 
 
-#pie_ring_center,
-#pie_ring,
-#pie_base,
-#pie_rose,
-#pie_nest {
-	height: 360px;
+.post-cover {
+	max-width: 100%;
+	overflow: hidden;
+	margin: 20px auto;
 }
 
-#graph_interests_option,
-#graph_place_option,
-#line_area_datazoom,
-#line_multi_y,
-#line_gradient_area,
-#line_broken,
-#line_base_area,
-#line_base {
-	height: 360px;
-}
-
-#map_china_two,
-#map_china {
-	height: 360px;
-}
-
-
-#graph_force_one,
-#graph_force_two {
-	height: 360px;
-}
-
-
-
-/* 人群画像 DEMO */
-
-#app_option,
-#wealth_option,
-#stage_option{
-	height: 260px;
-}
-#gender_option,
-#age_option,
-#education_option{
-	height: 300px;
-}
-#region_option,
-#interests_option,
-#place_option {
-	height: 360px;
+.post-cover img {
+	border-radius: 5px;
+	width: 100%;
 }

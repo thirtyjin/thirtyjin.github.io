@@ -206,8 +206,7 @@ dl p {
 hr {
   height: 1px;
   margin-bottom: 5px;
-  border: none;
-  background: url('../img/bg_hr.png') repeat-x center;
+  border-top: 1px dashed #dbdbdb;
 }
 
 table {
