@@ -1,27 +1,14 @@
 ---
-layout: base
-title: 博客首页
+layout: home
+title: 首页
 navbar_active: home
 relative_path: ./
 ---
 
-<div class="container bg-light mt-4 mb-4">
-
-  <div class="row">
-    {% for post in site.posts %}
-    <article>
-      <header>
-        <h2 class="post-title">
-          <a class="" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <div class="post-meta">{{ post.date }}</div>
-      </header>
-      <div class="post-content">
-          {{ post.content }}
-      </div>
-      <footer class="post-footer"></footer>
-    </article>
-    {% endfor %}
-  </div>
-
-</div>
+{% include section-whoami.html %}
+{% include section-blog.html %}
+{% include section-duxicons.html %}
+{% include section-duxcharts.html %}
+{% include section-duxlibs.html %}
+{% include section-portfolio.html %}
+{% include section-contact.html %}

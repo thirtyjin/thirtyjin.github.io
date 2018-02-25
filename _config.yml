@@ -1,5 +1,5 @@
-# Server
-baseurl: "/blog2"
+# Serve
+baseurl: "/about"
 url:     "http://thirtyjin.com"
 
 source: src
@@ -22,25 +22,42 @@ plugins:
   - jekyll-toc
 
 
-# social
-title: THIRTYJIN 设计进化论
-description: THIRTYJIN 设计进化论。
+# site
+title: THIRTYJIN の 设计进化论
+description: THIRTYJIN の 设计进化论。
 
 lang: zh
 
 # Custom variables
 site_url:       http://thirtyjin.com
-blog_url:       http://thirtyjin.com
+blog_url:       http://thirtyjin.com/blog/
 
 author:
   name:         Thirty Jin
-  email:        thirty.jin@qq.com
-  twitter_username:      thirtyjin
-  github_username:       thirtyjin
+
+dux:
+  duxicons:     http://thirtyjin.com/dux_icons
+  duxicons_git: https://github.com/DuxDesign/dux_icons
+  duxlibs:      http://thirtyjin.com/dux_libs
+  duxlibs_git:  https://github.com/DuxDesign/dux_libs
+  duxcharts:    http://thirtyjin.com/dux_charts
+  duxcharts_git:  https://github.com/DuxDesign/dux_charts
+
+contact:
+  email:        mailto:thirty.jin@gmail.com
+  twitter:      https://twitter.com/thirtyjin
+  github:       https://github.com/thirtyjin
+  weibo:        https://weibo.com/thirtyjin
+  weixin:       thirtyjin
+  facebook:     http://www.facebook.com/thirtyjin
+  dribbble:     http://dribbble.com/thirtyjin
+  linkedin:     http://www.linkedin.com/in/thirtyjin/
+
 github:
   url:          https://github.com/thirtyjin/thirtyjin.github.io
-  project:      dux_axure_library
+  project:      thirtyjin
   org:          thirtyjin
+
 license:
   font:
     version:      SIL OFL 1.1

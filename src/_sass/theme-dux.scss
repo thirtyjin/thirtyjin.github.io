@@ -30,7 +30,7 @@ body {
   color:#373737;
   font-size: 16px;
   line-height: 1.5;
-	font-family: 'PingFang SC', 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, simhei, sans-serif;
+	font-family: 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, simhei, sans-serif;
 
 	-webkit-font-smoothing: antialiased; /*chrome、safari*/
 	-moz-osx-font-smoothing: grayscale;/*firefox*/
@@ -79,7 +79,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #0F79D0;
+  color: inherit;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -95,7 +95,8 @@ a {
 }
 
 a:hover, a:focus {
-  text-decoration: underline;
+  text-decoration: none;
+
   /*font-weight:bold;*/
 }
 

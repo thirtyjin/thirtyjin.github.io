@@ -1,0 +1,42 @@
+<div id="mySidenav" class="sidenav bg-light">
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand mr-auto" href="{{ "/" | relative_url }}">
+      <img src="./assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    </a>
+    <span class="navbar-text closebtn">
+      <svg width="20px" height="20px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>close</title>
+              <g id="close" fill="#666666" fill-rule="nonzero">
+                  <path d="M24,21.2381888 L10.1909439,7.42913269 C9.4282908,6.66647958 8.1917858,6.66647958 7.42913269,7.42913269 C6.66647958,8.1917858 6.66647958,9.4282908 7.42913269,10.1909439 L21.2381888,24 L7.42913269,37.8090561 C6.66647958,38.5717092 6.66647958,39.8082142 7.42913269,40.5708673 C8.1917858,41.3335204 9.4282908,41.3335204 10.1909439,40.5708673 L24,26.7618112 L37.8090561,40.5708673 C38.5717092,41.3335204 39.8082142,41.3335204 40.5708673,40.5708673 C41.3335204,39.8082142 41.3335204,38.5717092 40.5708673,37.8090561 L26.7618112,24 L40.5708673,10.1909439 C41.3335204,9.4282908 41.3335204,8.1917858 40.5708673,7.42913269 C39.8082142,6.66647958 38.5717092,6.66647958 37.8090561,7.42913269 L24,21.2381888 Z"></path>
+              </g>
+      </svg>
+    </span>
+  </nav>
+
+  <nav class="nav flex-column mb-3">
+    <a class="nav-link active" href="{{ site.site_url }}" target="_blank">Home</a>
+    <a class="nav-link" href="{{ site.site_url }}/blog/" target="_blank">Blog</a>
+    <a class="nav-link" href="{{ site.site_url }}/blog/?cat=106" target="_blank">Big Details</a>
+    <a class="nav-link" href="{{ site.site_url }}/dux_icons/" target="_blank">DUX Icons</a>
+    <a class="nav-link" href="{{ site.site_url }}/dux_charts/" target="_blank">DUX Charts</a>
+    <a class="nav-link" href="{{ site.site_url }}/dux_libs/" target="_blank">DUX Libs</a>
+    <a class="nav-link" href="{{ site.site_url }}/blog/?post_type=portfolio" target="_blank">More Portfolio</a>
+    <div class="dropdown-divider"></div>
+    <a class="nav-link text-muted"><small>CONTACT ME</small></a>
+    <a class="nav-link" href="{{ site.contact.email }}" target="_blank">Email</a>
+    <a class="nav-link" href="{{ site.contact.weibo }}" target="_blank">Weibo</a>
+    <a class="nav-link" href="{{ site.contact.twitter }}" target="_blank">Twitter</a>
+    <a class="nav-link" href="{{ site.contact.facebook }}" target="_blank">Facebook</a>
+    <a class="nav-link" href="{{ site.contact.dribbble }}" target="_blank">Dribbble</a>
+    <a class="nav-link" href="{{ site.contact.linkedin }}" target="_blank">Linkedin</a>
+    <div class="dropdown-divider"></div>
+    <span class="nav-link text-secondary">
+      <small>&copy; 2018 THIRTYJIN.COM <br />All rights reserved.</small>
+    </span>
+  </nav>
+
+</div>
+
+<!-- 背景遮罩 -->
+<div id="myModal" class="blur_modal"></div>

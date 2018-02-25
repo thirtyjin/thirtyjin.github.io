@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8126" offset="0%"></stop>
+            <stop stop-color="#FF117E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_60pt@2x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="favicon">
+            <circle id="Background-c" fill="url(#linearGradient-1)" cx="60" cy="60" r="60"></circle>
+            <g id="合成图形" opacity="0.8" stroke-width="1" transform="translate(7.734375, 22.968750)" fill="#FFFFFF">
+                <path d="M35.6921984,20.4578234 L15.234375,0 L89.296875,0 L89.296875,74.0625 L15.234375,74.0625 L35.6921984,53.6046766 L89.296875,74.0625 L36.9447182,52.3521568 L50.7284788,38.5683962 L89.296875,74.0625 L52.265625,37.03125 L89.296875,0 L50.7284788,35.4941038 L36.9447182,21.7103432 L89.296875,0 L35.6921984,20.4578234 Z M33.818849,51.0558645 L0,37.03125 L33.818849,23.0066355 L49.0581939,37.03125 L33.818849,51.0558645 Z" id="logo"></path>
+            </g>
+        </g>
+    </g>
+</svg>

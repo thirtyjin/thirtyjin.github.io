@@ -5,8 +5,7 @@
 @import "theme-dux";
 
 html {
-	font-family: 'PingFang SC', 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, simhei, sans-serif;
-
+	font-family: 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, simhei, sans-serif;
 	-webkit-font-smoothing: antialiased; /*chrome、safari*/
 	-moz-osx-font-smoothing: grayscale;/*firefox*/
 }
@@ -18,6 +17,10 @@ body {
 
 ul {
 	padding: 0
+}
+
+.card-link:hover {
+	border-bottom: 1px solid #FFFFFF;
 }
 
 .navbar {
@@ -164,4 +167,287 @@ article ul li {
 .post-cover img {
 	border-radius: 5px;
 	width: 100%;
+}
+
+
+// HOME
+
+.bg-black {
+    background-color: #000000!important;
+}
+
+section .card {
+	border-radius: 12px;
+	align-self: center;
+	border: none;
+	box-shadow: 0 26px 40px -24px rgba(52, 70, 90, 0.4);
+}
+section .card .card-body {
+    padding: 2rem 1.25rem;
+}
+
+h1 span {
+	font-weight: normal;
+}
+
+#whoami {}
+
+#whoami .card {
+	box-shadow: 0 26px 40px -24px rgba(52, 70, 90, 0.4);
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+	// background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#portrait {
+	min-height: 420px;
+	background-image: url(../img/my_portrait.png);
+	background-size: 90%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	transition: all .5s ease;
+	filter: blur(10px);
+}
+
+#portrait:hover {
+	// filter: none;
+}
+
+#blog .card{
+	background-image: url(../img/blog-show.jpg);
+	background-size: cover;
+}
+
+#bigdetail .card{
+	background-image: url(../img/bigdetails-show.jpg);
+	background-size: cover;
+}
+
+#duxicons .card {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+
+#duxicons-show {
+	min-height: 400px;
+	background-image: url(../img/icons-2.svg);
+	// background-color: #FFFFFF;
+	background-size: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	// animation: animatedBackground 20s linear alternate infinite;
+  border: 8px #E8E8E8 solid;
+  border-radius: 2px;
+  box-shadow: 0 26px 40px -24px #34463c;
+
+	transition: all 3s ease;
+}
+
+#duxicons-show:hover {
+	background-position: bottom center;
+}
+
+// @keyframes animatedBackground {
+// 	from { background-position: top center; }
+// 	to { background-position: bottom center; }
+// }
+
+#duxcharts {
+
+}
+
+#duxcharts .bg-wave {
+	background-image: url(../img/charts-1.svg),url(../img/charts-2.svg);
+	background-position: bottom left, bottom right;
+	background-size: 50%, 50%;
+	background-repeat: repeat-x, repeat-x;
+	transition: all 10s ease;
+}
+
+#duxcharts:hover .bg-wave {
+	background-position: bottom right, bottom left;
+}
+
+#duxcharts .card {
+	background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+
+
+#duxcharts-show {
+	min-height: 400px;
+	border-radius: 0px;
+	background-image: url(../img/dux_charts.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+
+	border: 8px #f8f9fa solid;
+  border-radius: 2px;
+  box-shadow: 0 26px 40px -24px rgb(52, 70, 60);
+
+	// transition: all 2s ease;
+}
+
+#duxcharts-show:hover {
+	// background-position: bottom center;
+
+}
+
+#portfolio {
+}
+
+#portfolio .card {
+	background-image: url(../img/more_portfolio-bg.jpg);
+	background-size: cover;
+	background-position: bottom center;
+}
+
+#portfolio-show {
+	// min-height: 400px;
+	// background-image: url(../img/more_portfolio.png);
+	// background-position: top center;
+	// background-size: 100%;
+	// background-repeat: no-repeat;
+	// margin-bottom: 0px;
+
+	border: 8px #ffffff solid;
+  border-radius: 2px;
+  box-shadow: 0 26px 40px -24px rgb(52, 70, 60);
+
+	filter: blur(10px);
+	transition: all .5s ease;
+
+}
+
+#portfolio-show:hover {
+	filter: none;
+}
+
+
+#contact .card {
+	// background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+@media (max-width: 575.98px) {
+	h1 {
+    font-size: 30px;
+	}
+
+	#blog .card,
+	#bigdetail .card{
+		background-position: right;
+	}
+
+	#duxcharts .bg-wave {
+		background-image: url(../img/charts-1.svg),url(../img/charts-2.svg);
+		background-position: bottom left, bottom right;
+		background-size: auto, auto;
+		background-repeat: repeat-x, repeat-x;
+		transition: all 10s ease;
+	}
+
+	#duxcharts:hover .bg-wave {
+		background-position: bottom right, bottom left;
+	}
+	#portrait,
+	#duxicons-show,
+	#duxcharts-show{
+		min-height: 280px;
+	}
+
+}
+
+
+
+/**
+ * Sidebars
+ * -----------------------------------------------------------------------------
+ */
+
+
+.blur-on {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	height: 100%;
+}
+.blur-on > *{
+	filter: blur(5px);
+	transition: all ease .8s;
+}
+
+.blur-on > .sidenav * {
+	filter: none;
+}
+
+.blur-off > *{
+	filter: none;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    left: -250px;
+    transform: translateX(-250px);
+    position: fixed;
+    z-index: 10002;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    filter: none;
+    box-shadow: 5px 0px 20px 0px #dddddd;
+}
+
+.sidenav > *{
+	filter: none;
+	transition: all ease .8s;
+}
+
+.sidenav .sidebar_header {
+	max-height:60px;
+	/* background: #000000; */
+	/* border-bottom: 1px #2c2c2c solid; */
+	height: 60px;
+}
+
+.sidenav .sidebar_header .site-title {
+	text-align:left;
+	/* width:100%; */
+	max-width: calc(100% - 60px);
+	display: inline-block;
+	padding-left: 20px;
+}
+
+
+.sidenav .sidebar_header .closebtn {
+    font-size: 16px;
+    height: 60px;
+    width: 60px;
+    background: #00000000;
+		border: none;
+    vertical-align: middle;
+		display: inline-block;
+}
+
+/* 弹窗 (background) */
+.blur_modal {
+    display: none; /* 默认隐藏 */
+    position: fixed; /* 固定定位 */
+    z-index: 10001; /* 设置在顶层 */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(200, 200, 200, 0.5);
+    /* filter: blur(10px);
+    transition: all ease .8s; */
+    /* filter: blur(10px); */
 }
