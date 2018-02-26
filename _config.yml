@@ -1,6 +1,6 @@
 # Serve
-baseurl: "/about"
-url:     "http://thirtyjin.com"
+baseurl: /about
+url:     http://thirtyjin.com
 
 source: src
 destination: _site
