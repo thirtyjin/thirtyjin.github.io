@@ -1,6 +1,6 @@
 # Serve
-baseurl: /about
-url:     http://thirtyjin.com
+baseurl: 
+url:     https://thirtyjin.github.io
 
 
 destination: _site
