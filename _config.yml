@@ -2,7 +2,7 @@
 baseurl: /about
 url:     http://thirtyjin.com
 
-source: src
+
 destination: _site
 exclude:
   - Gemfile
