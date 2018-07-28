@@ -1,5 +1,5 @@
 # Serve
-baseurl: 
+baseurl:
 url:     https://thirtyjin.github.io
 
 
@@ -16,10 +16,10 @@ include: [_*.scss]
 
 # plugins
 plugins:
-  - jekyll-sitemap
-  - jekyll-avatar
-  - jemoji
-  - jekyll-toc
+# - jekyll-sitemap
+# - jekyll-avatar
+# - jemoji
+# - jekyll-toc
 
 
 # site
