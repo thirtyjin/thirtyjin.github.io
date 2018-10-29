@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Navbar content -->
   <!-- <span id="openSideNav" class="navbar-toggler-icon"></span> -->
@@ -12,3 +11,20 @@
 
 
 </nav>
+
+<script type="text/javascript">
+  document.onreadystatechange = function () {
+    if (document.readyState === "interactive") {
+      document.getElementById("loading_txt").innerHTML="加载中…";
+    }
+    if (document.readyState == "complete") {
+      document.getElementById("loading_txt").innerHTML="加载完成";
+      document.getElementsByClassName("loading")[0].style.display="none";
+    }
+  }
+</script>
+
+<div class="loading">
+  <div id="loading_pic"></div>
+  <div id="loading_txt">loading</div>
+</div>

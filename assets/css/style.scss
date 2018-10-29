@@ -19,6 +19,49 @@ ul {
 	padding: 0
 }
 
+
+
+.loading {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: rgba(255, 255, 255, .9);
+}
+
+#loading_txt {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 30px;
+	margin: auto;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: #999;
+}
+
+#loading_pic {
+	background-image: url(../img/Ball-1s-200px.svg);
+	background-size: 60px 60px;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 60px;
+	margin: auto;
+}
+
+
+
 .card-link:hover {
 	border-bottom: 1px solid #FFFFFF;
 }
